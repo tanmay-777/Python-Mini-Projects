@@ -8,7 +8,7 @@ except:
     pass
 
 
-SYMBOLS = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@$&():?")
+SYMBOLS = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
 polling = True
 print("Welcome to Caser Cipher Encryption/Decryption")
 while polling:
@@ -36,8 +36,7 @@ while polling:
             break
 
     print(f"Write the message to {mode}:")
-    if mode == "Encrypt":
-        message  = input("> ")
+    message  = input("> ")
 
     message = message.upper()
 
@@ -78,5 +77,5 @@ while polling:
     reponse = input("> ")
     if reponse.upper().startswith("Y"):
         continue
-    if reponse.upper().startswith("N"):
+    else:
         break
