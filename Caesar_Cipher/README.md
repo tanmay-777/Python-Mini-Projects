@@ -7,7 +7,7 @@ Whether you're hiding a message or cracking a code, this script handles alphanum
 ## ✨ Features
 
 * **Two-Way Translation:** Encrypt new messages or decrypt existing secrets on the fly.
-* **Custom Keys:** Shift characters using any key from `0` to `35`.
+* **Custom Keys:** Shift characters using any key from `0` to `46`.
 * **Bulletproof Input:** Built-in error handling and input validation means accidental typos won't crash the script.
 * **Smart Parsing:** Shifts letters and numbers (A-Z, 0-9) while leaving spaces and punctuation exactly as they are.
 * **Auto-Copy:** Automatically sends the final output to your clipboard for instant pasting.
@@ -15,6 +15,7 @@ Whether you're hiding a message or cracking a code, this script handles alphanum
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 
 You'll need Python 3 installed, along with the `pyperclip` module for clipboard support.
 
